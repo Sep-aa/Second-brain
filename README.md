@@ -1,6 +1,3 @@
-# Second-brain
-A Django-based Second Brain for organizing notes, school assignments, and deadlines. Built to be lightweight, structured, and easy to extend.
-
 # Second Brain (Django)
 
 A personal Second Brain built with Django for managing notes, school assignments, and deadlines in one place.
