@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% extends "master.html" %}
 
+{% block title %}
+    Detaljer om {{ mymember.firstname }} {{ mymember.lastname }}
+{% endblock %}
+
+{% block content %}
     <h1>{{ mymembers.firstname }} {{ mymembers.lastname }}</h1>
     <p>Phone: {{ mymember.phone }}</p>
     <p>Member since: {{ mymember.joined_date }}</p>
 
     <p>Back to <a href="/brukere">Brukere</a></p>
-</body>
-</html>
+
+{% endblock %}
