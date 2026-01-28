@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+{% extends "master.html" %}
+
+{% block title %}
+    Second brain - liste over brukere
+{% endblock %}
+
+{% block content %}
+    <p><a href="/">Main</a></p>
+
     <h1>Brukere</h1>
-    
     <ul>
         {% for x in mymembers %}
         <li><a href="detaljer/{{ x.id }}">{{ x.firstname }} {{ x.lastname }}</a></li>
         {% endfor %}
     </ul>
 
-
-</body>
-</html>
+{% endblock %}
