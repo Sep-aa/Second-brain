@@ -2,11 +2,12 @@
 # @Author: Sep-aa
 # @Date:   2026-01-28 13:41:04
 # @Last Modified by:   Sep-aa
-# @Last Modified time: 2026-02-04 10:47:39
+# @Last Modified time: 2026-02-04 11:33:49
 from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
     path('', include('homepage.urls')),
+    path('brukere/', include('brukere.urls')),
     path('admin/', admin.site.urls),
 ]
