@@ -15,6 +15,35 @@ body {
     color: #d4d4d4;
 }
 
+.Overskrift {
+    font-size: 48px;
+}
+
+.brukere{
+    margin-bottom: 4%;
+    margin-left: 5%;
+}
+
+.notat{
+    margin-bottom: 4%;
+    margin-left: 5%;
+}
+
+.random{
+    margin-bottom: 4%;
+    margin-left: 5%;
+}
+
+footer {
+    text-align: center;
+    color: #888888;
+    position: fixed;
+    width: 50%;
+    bottom: 0;
+}
+
+
+
 p {
     margin-left: 5px;
 }
