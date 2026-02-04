@@ -54,9 +54,19 @@ button:hover{
 
 a {
     color: cadetblue;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+.ikkevislinje {
     text-decoration: none;
 }
 
+.vislinje {
+    text-decoration: underline;
+}
 
 .Overskrift {
     font-size: 42px;
@@ -81,6 +91,7 @@ footer {
     background: rgba(41,41,41,0.9);
     padding: 8px 12px;
     border-top: 1px solid rgba(255,255,255,0.03);
+    opacity: 0.8;
 }
 
 
@@ -158,11 +169,20 @@ li:hover {
 
 .linje {
     display: block;
-    height: 4px;
+    height: 3px;
     border: none;
     border-radius: 10px;
     background: rgba(94, 94, 94, 0.76);
     margin: 12px 0;
+}
+
+.linje1 {
+    display: block;
+    height: 2px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(94, 94, 94, 0.76);
+    margin: 8px 0;
 }
 
 
