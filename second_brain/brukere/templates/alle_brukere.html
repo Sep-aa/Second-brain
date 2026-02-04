@@ -12,12 +12,16 @@
 
 {% block content %}
     <p class="main"><a href="/" class="ikkevislinje">Hovedside</a></p>
-
+    <hr class="linje1" />
+    <article class="detaljeralt">
     <h1>Brukere</h1>
-    <ul>
-        {% for x in mymembers %}
-        <li><a href="detaljer/{{ x.id }}" class="ikkevislinje">{{ x.firstname }} {{ x.lastname }}</a></li>
-        {% endfor %}
-    </ul>
+        <article class="detaljer">
+            <ul>
+                {% for x in mymembers %}
+                <li><a href="detaljer/{{ x.id }}" class="ikkevislinje">{{ x.firstname }} {{ x.lastname }}</a></li>
+                {% endfor %}
+            </ul>
+        </article>
+    </article>
 
 {% endblock %}

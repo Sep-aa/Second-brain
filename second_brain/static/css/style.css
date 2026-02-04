@@ -164,7 +164,11 @@ li:hover {
 
 .detaljer {
     color: #b8b8b8;
-    margin-left: 4%;
+    margin-left: 2%;
+}
+
+.detaljeralt {
+    font-size: large;
 }
 
 .linje {
