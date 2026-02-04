@@ -161,3 +161,49 @@ li:hover {
     background: rgba(94, 94, 94, 0.76);
     margin: 12px 0;
 }
+
+.brukere-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.brukere-content {
+    flex: 1;
+}
+
+.brukere-content h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.brukere-content .controls {
+    margin-top: 0.5rem;
+}
+
+.notat-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.notat-content {
+    flex: 1;
+}
+
+.notat-content h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.notat-content .controls {
+    margin-top: 0.5rem;
+}
+
+.Bilde {
+    margin: 0px;
+    flex-shrink: 0;
+}
+
