@@ -23,6 +23,10 @@ button{
     margin-left: 2%;
     border-radius: 10px;
     transition: 0.2s;
+    width: 220px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
 }
 
 button:hover{
@@ -83,6 +87,34 @@ p {
     margin: 0px;
     text-align: left;
     font-size: 20px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+.controls p {
+    margin: 0;
+}
+
+
+.brukere button {
+    width: 220px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.brukere .brukerknapp {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
 }
 
 li {
