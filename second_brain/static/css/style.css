@@ -1,5 +1,5 @@
 /**
- * @Author: Your name
+ * @Author: Oliver
  * @Date:   2026-02-03 21:34:32
  * @Last Modified by:   Your name
  * @Last Modified time: 2026-02-04 08:10:05
@@ -8,8 +8,40 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
     background-color: #292929;
     color: #d4d4d4;
 }
 
+p {
+    margin-left: 5px;
+}
+
+a {
+    color: #67b3ff;
+}
+
+.main {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+li {
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+li:hover {
+    scale : 1.05;
+}
+
+.detaljer {
+    color: #b8b8b8;
+    margin-left: 4%;
+}

@@ -11,10 +11,25 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Second brain</h1>
-    <h3>Brukere</h3>
+    <h1 class="Overskrift">Second brain</h1>
+    <section class="container">
+        <article class="brukere">
+            <h2>Brukere</h2>
+            <p>Se alle <a href="brukere/">brukere</a></p>
+        </article>
+        <article class="notat">
+            <h2>Notatapp</h2>
+            <p>Se vår <a href="notatapp/">notatapp</a></p>
+        </article>
+        <article class="random">
+            <h2>Random</h2>
+            <p>Se <a href="random/">random</a></p>
+        </article>
+    </section>
 
-    <p>Se alle <a href="brukere/">brukere</a></p>
-
+    <footer>
+        <p>© 2026 Second Brain</p>
+        <p>Sebastian Olsen & Oliver Åsnes</p>
+    </footer>
 
 {% endblock %}

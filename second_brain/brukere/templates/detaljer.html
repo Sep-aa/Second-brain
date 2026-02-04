@@ -11,10 +11,11 @@
 {% endblock %}
 
 {% block content %}
-    <h1>{{ mymembers.firstname }} {{ mymembers.lastname }}</h1>
-    <p>Phone: {{ mymember.phone }}</p>
-    <p>Member since: {{ mymember.joined_date }}</p>
 
-    <p>Back to <a href="/brukere">Brukere</a></p>
+    <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
+    <p class="detaljer">Telefon: {{ mymember.phone }}</p>
+    <p class="detaljer">Bruker siden: {{ mymember.joined_date }}</p>
+
+    <p class="detaljer">Tilbake til <a href="/brukere">Brukere</a></p>
 
 {% endblock %}
