@@ -1,8 +1,8 @@
 /**
  * @Author: Oliver
  * @Date:   2026-02-03 21:34:32
- * @Last Modified by:   Oliver
- * @Last Modified time: 2026-02-04 09:08:12
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2026-02-04 08:10:05
  */
 
 body {
@@ -12,48 +12,7 @@ body {
     padding-right: 25%;
     padding-top: 5%;
     background-color: #292929;
-    color: #ffffff; 
-}
-
-footer {
-    margin : 0px;
-    text-align: center;
-    padding: 0px;
-    background-color: #1a1a1a;
-    color: #888888;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.Overskrift {
-    color: #ffffff;
-    font-size: 48px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.container {
-    display: flex;
-    gap: 50px;
-    justify-content: space-between;
-}
-
-.brukere {
-    flex: 1;
-}
-
-.notat {
-    flex: 1;
-    text-align: right;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 0px;
-}
-
-.random {
-    flex: 1;
-    text-align: right;
+    color: #d4d4d4;
 }
 
 p {
