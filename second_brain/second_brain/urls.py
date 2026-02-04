@@ -2,7 +2,7 @@
 # @Author: Sep-aa
 # @Date:   2026-02-04 11:53:48
 # @Last Modified by:   Sep-aa
-# @Last Modified time: 2026-02-04 12:36:48
+# @Last Modified time: 2026-02-04 14:03:48
 from django.contrib import admin
 from django.urls import include, path
 
