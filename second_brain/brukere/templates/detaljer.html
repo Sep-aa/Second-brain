@@ -11,11 +11,12 @@
 {% endblock %}
 
 {% block content %}
-
-    <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
-    <p class="detaljer">Telefon: {{ mymember.phone }}</p>
-    <p class="detaljer">Bruker siden: {{ mymember.joined_date }}</p>
-
-    <p class="detaljer">Tilbake til <a href="/brukere">Brukere</a></p>
-
+    <article class="detaljeralt">
+        <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>
+        <article class="detaljer">
+            <p>Telefon: {{ mymember.phone }}</p>
+            <p>Bruker siden: {{ mymember.joined_date }}</p>
+            <p>Tilbake til <a href="/brukere" class="ikkevislinje">Brukere</a></p>
+        </article>
+    </article>
 {% endblock %}

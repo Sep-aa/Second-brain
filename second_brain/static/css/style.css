@@ -52,7 +52,14 @@ button:hover{
 
 a {
     color: cadetblue;
+}
+
+.ikkevislinje {
     text-decoration: none;
+}
+
+.vislije {
+    text-decoration:underline;
 }
 
 
@@ -151,18 +158,30 @@ li:hover {
 
 .detaljer {
     color: #b8b8b8;
-    margin-left: 4%;
+    margin-left: 2%;
+}
+
+.detaljeralt {
+    font-size: large;
 }
 
 .linje {
     display: block;
-    height: 4px;
+    height: 3px;
     border: none;
     border-radius: 10px;
     background: rgba(94, 94, 94, 0.76);
     margin: 12px 0;
 }
 
+.linje1 {
+    display: block;
+    height: 2px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(94, 94, 94, 0.76);
+    margin: 12px;
+}
 
 .brukere-container,
 .notat-container {
@@ -191,5 +210,9 @@ li:hover {
 .Bilde {
     margin: 0px;
     flex-shrink: 0;
+}
+
+.velg {
+    color: #bdbdbde3;
 }
 
