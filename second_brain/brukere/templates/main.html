@@ -12,19 +12,35 @@
 
 {% block content %}
     <h1 class="Overskrift">Second brain</h1>
-    <section class="container">
+    <section>
         <article class="brukere">
             <h2>Brukere</h2>
-            <p>Se alle <a href="brukere/">brukere</a></p>
+            <article class="controls">
+                <p>Velg alternativ:</p>
+                <button><a href="brukere/" class="brukerknapp">Gå til brukerliste</a></button>
+                <button><a href="brukereNY/" class="brukerknapp">Registrer ny bruker</a></button>
+                <!-- <button><a href="brukere/" class="brukerknapp">Info for brukerene</a></button> -->
+                <p class="linje">----------------------------------------------------------------------------------------------------------------------------</p>
+            </article>
         </article>
         <article class="notat">
             <h2>Notatapp</h2>
-            <p>Se vår <a href="notatapp/">notatapp</a></p>
+            <article class="controls">
+                <p>Velg alternativ:</p>
+                <button><a href="notatapp/" class="brukerknapp">Gå til notatappen</a></button>
+                <button><a href="notatappinfo/" class="brukerknapp">Info om notatappen</a></button>
+            </article>
+            <p class="linje">---------------------------------------------------------------------------------------------------------------------------</p>
         </article>
-        <article class="random">
-            <h2>Random</h2>
-            <p>Se <a href="random/">random</a></p>
+        <article class="notat">
+            <h2>Random1</h2>
+            <article class="controls">
+                <p>Velg alternativ:</p>
+                <button><a href="random1/" class="brukerknapp">Gå til Random1</a></button>
+                <button><a href="random1info/" class="brukerknapp">Info om Random1</a></button>
+            </article>
         </article>
+
     </section>
 
     <footer>
