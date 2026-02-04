@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# @Author: Your name
+# @Author: Sep-aa
 # @Date:   2026-01-28 13:41:04
-# @Last Modified by:   Your name
-# @Last Modified time: 2026-02-03 21:36:11
+# @Last Modified by:   Sep-aa
+# @Last Modified time: 2026-02-04 10:01:09
 """
 Django settings for second_brain project.
 
@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'brukere'
+    'homepage',
+    'brukere',
 ]
 
 MIDDLEWARE = [
